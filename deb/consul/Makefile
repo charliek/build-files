@@ -38,3 +38,6 @@ clean:
 build-deb:
 	mkdir -p out
 	dpkg-deb --build src out
+	# package can be tested with:
+	# sudo dpkg -i out/consul_0.2.1_amd64.deb
+	# sudo dpkg -r consul
