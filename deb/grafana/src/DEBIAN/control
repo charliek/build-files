@@ -1,0 +1,7 @@
+Package: grafana
+Version: 1.6.1
+Section: base
+Priority: optional
+Architecture: all
+Maintainer: torkelo <torkel.odegaard@gmail.com>
+Description: Tool for visualizing metrics in graphite or influxdb
